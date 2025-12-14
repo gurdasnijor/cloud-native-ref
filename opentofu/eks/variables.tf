@@ -90,7 +90,7 @@ variable "ebs_csi_driver_chart_version" {
 
 variable "gateway_api_version" {
   description = "Gateway API CRDs version"
-  default     = "v1.4.0"
+  default     = "v1.4.1"
   type        = string
 }
 
@@ -111,7 +111,7 @@ variable "cert_manager_approle_secret_name" {
 
 variable "flux_operator_version" {
   description = "Flux Operator version"
-  default     = "0.33.0"
+  default     = "0.36.0"
   type        = string
 }
 
